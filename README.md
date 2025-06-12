@@ -1,2 +1,2 @@
-# adminer
-adminer
+# Adminer
+Adminer SQL database manager
