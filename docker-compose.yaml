@@ -4,4 +4,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8080:8080
+      - 8090:8080
+    networks:
+      - localdev
+
+networks:
+  localdev:
+    name: localdev_net
+    driver: bridge
+    external: true
