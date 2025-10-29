@@ -1,4 +1,4 @@
-# Adminer
+# Adminer docker setup
 Adminer SQL database manager
 
 ## 1. How to use
